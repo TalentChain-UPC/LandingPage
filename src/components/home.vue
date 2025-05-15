@@ -4,20 +4,19 @@
     <header class="header">
       <nav class="navbar container">
         <div class="navbar-brand">
-          <img src="" alt="TalentChain" class="logo">
-          <span>TalentChain</span>
+          <a href="#home">TalentChain</a>
         </div>
         <ul class="navbar-nav">
           <li><a href="#caracteristicas">Características</a></li>
-          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#funciona">Cómo funciona</a></li>
           <li><a href="#beneficios">Beneficios</a></li>
         </ul>
-        <button class="btn-demo">Solicitar demo</button>
+        <button class="btn-demo">Registrarse</button>
       </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section id="home" class="hero">
       <div class="container">
         <div class="hero-content">
           <div class="hero-left">
@@ -36,7 +35,7 @@
               asegurar transparencia en cada logro.
             </p>
             <div class="hero-buttons">
-              <button class="btn-primary">Solicitar una demo</button>
+              <button class="btn-primary">Registrarse</button>
               <button class="btn-secondary">Conocer más</button>
             </div>
             <div class="features-list">
@@ -59,8 +58,7 @@
               <div class="department-header">
                 <span class="department-icon">🏢</span>
                 <div>
-                  <h3>Departamento de Marketing</h3>
-                  <span class="member-count">Mayo 2024</span>
+                  <h3>Departamento de Recuros Humanos</h3>
                 </div>
                 <span class="blockchain-text">Blockchain ID 0x5F3...</span>
               </div>
@@ -98,7 +96,7 @@
     </section>
 
     <!-- Como Funciona Section -->
-    <section class="how-it-works">
+    <section id="funciona" class="how-it-works">
       <div class="container">
         <h2>¿Cómo funciona <span class="text-blue">TalentChain</span>?</h2>
         <p class="subtitle">
@@ -121,21 +119,21 @@
           <div class="step">
             <div class="step-number">3</div>
             <div class="step-icon">💰</div>
-            <h3>Acumulación de tokens</h3>
+            <h3>Acumulación de TalentCoins</h3>
             <p>Los empleados reciben recompensas digitales según sus logros, competencias y trabajo.</p>
           </div>
           <div class="step">
             <div class="step-number">4</div>
             <div class="step-icon">🎁</div>
             <h3>Canje por recompensas</h3>
-            <p>Los tokens pueden canjearse en el catálogo corporativo por capacitaciones, productos o experiencias.</p>
+            <p>Las monedas pueden canjearse en el catálogo corporativo por capacitaciones, productos o experiencias.</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Benefits Section -->
-    <section class="benefits">
+    <section id="beneficios" class="benefits">
       <div class="container">
         <h2>Beneficios de <span class="text-blue">TalentChain</span></h2>
         <p class="subtitle">
@@ -157,13 +155,6 @@
               <div>
                 <h4>Mayor retención de talento</h4>
                 <p>Empleados más comprometidos y motivados permanecen más tiempo en la empresa.</p>
-              </div>
-            </div>
-            <div class="benefit-item">
-              <i class="icon-roi"></i>
-              <div>
-                <h4>ROI medible</h4>
-                <p>Analíticas detalladas para medir el impacto de los programas de incentivos.</p>
               </div>
             </div>
             <div class="benefit-item">
@@ -210,7 +201,7 @@
     </section>
 
     <!-- Features Section -->
-    <section class="features">
+    <section id="caracteristicas" class="features">
       <div class="container">
         <h2>Características destacadas</h2>
         <p class="subtitle">
@@ -247,12 +238,12 @@
             en tu empresa
           </h2>
           <p>
-            Solicita una demo personalizada y descubre cómo TalentChain puede adaptarse a las 
+            Contactanos y descubre cómo TalentChain puede adaptarse a las 
             necesidades específicas de tu organización.
           </p>
           <div class="cta-form">
             <input type="email" placeholder="tu-empresa@email.com" class="email-input">
-            <button class="btn-cta">Solicitar demo</button>
+            <button class="btn-cta">Enviar</button>
           </div>
           <p class="disclaimer">
             Sin compromisos. Todos los datos están protegidos por nuestra política de privacidad.
@@ -267,47 +258,14 @@
         <div class="footer-grid">
           <div class="footer-column">
             <h4>TalentChain</h4>
-            <ul>
-              <li><a href="#">Sobre nosotros</a></li>
-              <li><a href="#">Casos de éxito</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Careers</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
-            <h4>Producto</h4>
-            <ul>
-              <li><a href="#">Características</a></li>
-              <li><a href="#">Integraciones</a></li>
-              <li><a href="#">Blockchain</a></li>
-              <li><a href="#">API</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
-            <h4>Recursos</h4>
-            <ul>
-              <li><a href="#">Documentación</a></li>
-              <li><a href="#">Guías</a></li>
-              <li><a href="#">Webinars</a></li>
-              <li><a href="#">Comunidad</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
-            <h4>Legal</h4>
-            <ul>
-              <li><a href="#">Privacidad</a></li>
-              <li><a href="#">Términos de uso</a></li>
-              <li><a href="#">Seguridad</a></li>
-              <li><a href="#">Cumplimiento</a></li>
-            </ul>
+              <a href="#">Sobre nosotros</a>
+              <a href="#">Casos de éxito</a>
+              <a href="#">Blog</a>
+              <a href="#">Careers</a>
           </div>
         </div>
         <div class="footer-bottom">
           <p>© 2024 TalentChain. Todos los derechos reservados.</p>
-          <div class="footer-links">
-            <span>Hecho con ❤</span>
-            <span>Todo nuestro valor es gente</span>
-          </div>
         </div>
       </div>
     </footer>
@@ -344,13 +302,15 @@ export default {
 }
 
 .navbar {
+  text-decoration: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
 }
 
-.navbar-brand {
+.navbar-brand a{
+  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -828,11 +788,11 @@ export default {
   background: #1a202c;
   color: white;
   padding: 3rem 0 1rem;
+  justify-content: center;
+  display: flex;
 }
 
 .footer-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   margin-bottom: 2rem;
 }
@@ -842,40 +802,33 @@ export default {
   font-weight: 600;
   margin-bottom: 1rem;
   color: white;
+  justify-content: center;
+  display: flex;
 }
 
-.footer-column ul {
-  list-style: none;
-}
-
-.footer-column ul li {
-  margin-bottom: 0.5rem;
-}
-
-.footer-column ul li a {
-  color: #9ca3af;
+.footer-column a {
+  display:inline-flex;
+  color: #9ca3af; 
   text-decoration: none;
   font-size: 0.875rem;
   transition: color 0.2s;
+  justify-content: space-between;
+  margin-right: 30px;
+  justify-content: center;
+  
 }
 
-.footer-column ul li a:hover {
+.footer-column a:hover {
   color: white;
 }
 
 .footer-bottom {
   border-top: 1px solid #374151;
   padding-top: 1rem;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   font-size: 0.875rem;
   color: #9ca3af;
-}
-
-.footer-links {
-  display: flex;
-  gap: 1rem;
+  justify-content: center;
 }
 
 /* Responsive */
